@@ -22,7 +22,7 @@ BA1.Accuracy()
 
 # Support Vector Classifier
 BA2 = BestAccuracy()
-BA2._init_(SVC(kernel='rbf', random_state=0), X, Y, 100)
+BA2._init_(SVC(kernel='linear', random_state=0), X, Y, 100)
 BA2.Accuracy()
 
 # Random Forest Classifer
